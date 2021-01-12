@@ -1,8 +1,8 @@
 # Docker Zeek IDS cluster
 
-[Zeek IDS](https://www.zeek.org/index.html) can be used in a worker cluster setup. Mutliple slave nodes share the workload of traffic analysis and report to a logger node. The cluster is managed in a centralized fashion by a dedicated manager node.
+[Zeek IDS](https://zeek.org/) can be used in a worker cluster setup. Mutliple slave nodes share the workload of traffic analysis and report to a logger node. The cluster is managed in a centralized fashion by a dedicated manager node.
 
-[Official Zeek IDS cluster documentation](https://docs.zeek.org/en/stable/cluster/index.html)
+[Official Zeek IDS cluster documentation](https://docs.zeek.org/en/current/cluster/)
 
 This repo provides a docker wrapper around Zeek that allows for a containerized Zeek IDS cluster.
 
